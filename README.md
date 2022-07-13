@@ -16,7 +16,7 @@ npm i body-parser
 npm i dotenv
 
 
-Will need to update MONGO_URI in the .env file to match a valid deployed mongo cluster.
+Will need to update MONGO_URI in the .env file to connect to a valid deployed mongo cluster.
 
 
 To run program open a terminal from the root directory of project and run: 'node index.js'
