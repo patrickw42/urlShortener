@@ -1,4 +1,4 @@
-# urlShortener2
+# urlShortener
 Any valid URL entered into the form will be saved to new record in MongoDB as full_url, along with short_url (id generated).
 
 Post from form responds with json object containing url entered in form as original_url property, and id generated as short_url property.
