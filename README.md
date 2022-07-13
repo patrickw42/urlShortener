@@ -5,19 +5,24 @@ Post from form responds with json object containing url entered in form as origi
            
 Get requests to '/api/shorturl/<short_url>' will redirect to website addressed at full_url matching short_url in the database.
 
-Will need Node.js installed, and inside root directory of project will need to install modules used in program by running:
-npm i mongoose                  // used to access our mongo database and do CRUD operations on records
-npm i express                   // used for routing 
-npm i body-parser               // used for accessing url params
-npm i dotenv                    // used for accessing environmental variables from .env file
+Will need Node.js installed, and inside root directory of project will need to install modules used in program by running commands:
+
+npm i mongoose                   
+
+npm i express
+
+npm i body-parser
+
+npm i dotenv
+
 
 Will need to update MONGO_URI in the .env file to match a valid deployed mongo cluster.
 
-To run program open a terminal from the root directory of project and enter:
-node index.js
+
+To run program open a terminal from the root directory of project and run: 'node index.js'
 
 Open up web browser and enter:
-localhost:3000
+'localhost:3000'
 
 HTML and CSS provided by freecodecamp.org
 
